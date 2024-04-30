@@ -1,0 +1,23 @@
+#video-container {
+    position: relative;
+    height: 300px;
+}
+#video-element {
+    position: relative;
+    top: 0;
+    left: 40%;
+}
+#ad-container {
+    position: relative;
+    top: -270px;
+    left: 40%;
+}
+@media (max-width: 1000px) {
+    #video-container {
+        height: 300px;
+    }
+    #video-element, #ad-container {
+        top: 0;
+        left: 5%;
+    }
+}
